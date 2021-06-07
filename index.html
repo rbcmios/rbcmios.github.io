@@ -1,6 +1,47 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<style>
+		.btn {
+			display: inline-block;
+			font-weight: 400;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			border: 1px solid transparent;
+			padding: .375rem .75rem;
+			font-size: 1rem;
+			line-height: 1.5;
+			border-radius: .25rem;
+			transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+			text-decoration: none;
+			font-family: Helvetica, Arial, sans-serif
+		}
+		.btn-primary {
+			color: #FFFFFF;
+			background-color: #2196F3;
+			border-color: #2196F3;
+		}
+		.inner {
+			width: 50%;
+			margin: 0 auto;
+			padding-top: 3rem;
+		}
+	</style>
+</head>
 <body>
-<a href="itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/llsgl0zuk5t66ai/manifest.plist">Download CLS</a>
+	<div>
+		<div class="inner">
+			<a
+				class="btn btn-primary"
+				href="itms-services://?action=download-manifest&url=https://dl.dropbox.com/s/llsgl0zuk5t66ai/manifest.plist">
+				Download Collections Location System
+			</a>
+		</div>
+	</div>
 </body>
 </html>
